@@ -11,9 +11,11 @@ func main(){
 		fmt.Println(num,"         index" ,index)
 	}
 
-	m:= map[string]string{"name":"Sohail", "age":"22 years"}
+	m:= map[string]string{"name":"Sohail", "te":"22 years"}
 
 	for key,val := range m{
-		fmt.Println(key, "          ",val)
+		fmt.Println(key, "          " , val)
+		fmt.Println(key, "          " , val)
+		
 	}
 }
