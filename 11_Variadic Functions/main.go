@@ -2,6 +2,8 @@ package main
 
 
 func sum(nums ...int) int {
+
+	print("Hello world")
 	total:=0;
 	for _,num:= range nums {
 		total+=num;
